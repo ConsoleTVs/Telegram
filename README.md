@@ -24,7 +24,10 @@ print(bot.sendMessage({
 ```
 ## Send a photo to a chat.
 ```py
-print(bot.sendPhoto({ 'chat_id': chat_id, 'photo': 'https://i.barkpost.com/wp-content/uploads/2016/04/consome-panchi2-1.png' }))
+print(bot.sendPhoto({
+  'chat_id': chat_id,
+  'photo': 'https://i.barkpost.com/wp-content/uploads/2016/04/consome-panchi2-1.png'
+}))
 ```
 ## Send a gif to a chat.
 ```py
